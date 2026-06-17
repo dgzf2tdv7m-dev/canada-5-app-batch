@@ -10,5 +10,5 @@
 - [x] 5 iPad screenshots generated
 - [x] English metadata generated
 - [x] Privacy HTML and Support HTML generated
-- [ ] xcodebuild verification recorded in batch report
-- [ ] GitHub Pages deployment/curl 200 recorded in batch report
+- [x] xcodebuild verification recorded in batch report
+- [x] GitHub Pages deployment/curl 200 recorded in batch report

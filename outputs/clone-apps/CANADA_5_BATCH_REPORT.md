@@ -22,4 +22,23 @@ Generated from `CodexPipeline/tasks/temp-clone-canada-5.md`.
 
 ## Verification
 
-Build and GitHub Pages verification will be appended after commands run.
+- xcodebuild: all five projects passed `xcodebuild -project ... -sdk iphonesimulator -configuration Debug CODE_SIGNING_ALLOWED=NO build` on Xcode 26.5.
+- GitHub repository: https://github.com/dgzf2tdv7m-dev/canada-5-app-batch
+- GitHub Pages: https://dgzf2tdv7m-dev.github.io/canada-5-app-batch/
+- Pages deployment: GitHub Actions run `27701050581` completed successfully.
+- curl 200 checks:
+  - https://dgzf2tdv7m-dev.github.io/canada-5-app-batch/rpasdeckca/privacy.html
+  - https://dgzf2tdv7m-dev.github.io/canada-5-app-batch/rpasdeckca/support.html
+  - https://dgzf2tdv7m-dev.github.io/canada-5-app-batch/examcardsca/privacy.html
+  - https://dgzf2tdv7m-dev.github.io/canada-5-app-batch/winterobdca/support.html
+  - https://dgzf2tdv7m-dev.github.io/canada-5-app-batch/conduitmateca/privacy.html
+  - https://dgzf2tdv7m-dev.github.io/canada-5-app-batch/telepromptca/support.html
+
+## Spec and Audit Files
+
+- `outputs/clone-apps/specs/RPAS_DECK_CA_SPEC.md`
+- `outputs/clone-apps/specs/EXAMCARDS_CA_SPEC.md`
+- `outputs/clone-apps/specs/WINTEROBD_CA_SPEC.md`
+- `outputs/clone-apps/specs/CONDUITMATE_CA_SPEC.md`
+- `outputs/clone-apps/specs/TELEPROMPT_CA_SPEC.md`
+- `outputs/clone-apps/specs/VISUAL_CANADA_AUDIT.md`
