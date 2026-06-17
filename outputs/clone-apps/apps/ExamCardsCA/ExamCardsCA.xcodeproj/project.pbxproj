@@ -1,0 +1,203 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00000000179B8BD552F0E65F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000002EF74D1F30427C03 /* ContentView.swift */; };
+		0000000040DDAA779EFDC997 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 000000007FBADDF9DCC0DE50 /* Assets.xcassets */; };
+		0000000011421B12B97BBBC3 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 0000000045E66E8C4879EDDD /* PrivacyInfo.xcprivacy */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0000000069329945D269F030 /* ExamCardsCA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExamCardsCA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		000000002EF74D1F30427C03 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		000000007FBADDF9DCC0DE50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0000000045E66E8C4879EDDD /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		00000000280E9BA97392EA88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		00000000356FC23E33A6C44F = {
+			isa = PBXGroup;
+			children = (
+				000000001C62F0EE431B75AC /* ExamCardsCA */,
+				000000000F3E610CE386F661 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		000000001C62F0EE431B75AC /* ExamCardsCA */ = {
+			isa = PBXGroup;
+			children = (
+				000000002EF74D1F30427C03 /* ContentView.swift */,
+				000000007FBADDF9DCC0DE50 /* Assets.xcassets */,
+				0000000045E66E8C4879EDDD /* PrivacyInfo.xcprivacy */,
+				00000000280E9BA97392EA88 /* Info.plist */,
+			);
+			path = ExamCardsCA;
+			sourceTree = "<group>";
+		};
+		000000000F3E610CE386F661 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0000000069329945D269F030 /* ExamCardsCA.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0000000046F231AE674FCCEC /* ExamCardsCA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0000000054E52C3A0681C9EA /* Build configuration list for PBXNativeTarget "ExamCardsCA" */;
+			buildPhases = (
+				00000000493A86EE37F4C62E /* Sources */,
+				00000000550FCF798AE6E93B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExamCardsCA;
+			productName = ExamCardsCA;
+			productReference = 0000000069329945D269F030 /* ExamCardsCA.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		000000002B7034EB1D2F7401 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					0000000046F231AE674FCCEC = {
+						CreatedOnToolsVersion = 26.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 000000005E78618F216440CB /* Build configuration list for PBXProject "ExamCardsCA" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				fr,
+				Base,
+			);
+			mainGroup = 00000000356FC23E33A6C44F;
+			productRefGroup = 000000000F3E610CE386F661 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0000000046F231AE674FCCEC /* ExamCardsCA */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00000000550FCF798AE6E93B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0000000040DDAA779EFDC997 /* Assets.xcassets in Resources */,
+				0000000011421B12B97BBBC3 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00000000493A86EE37F4C62E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00000000179B8BD552F0E65F /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0000000041FACD21FB59878B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		00000000511D4A284F0EE046 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		0000000028BEA4BA7AE0DF03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ExamCardsCA/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codexpipeline.canada.examcardsca;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0000000069EF8EF9B5370C1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ExamCardsCA/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codexpipeline.canada.examcardsca;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		000000005E78618F216440CB /* Build configuration list for PBXProject "ExamCardsCA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0000000041FACD21FB59878B /* Debug */,
+				00000000511D4A284F0EE046 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0000000054E52C3A0681C9EA /* Build configuration list for PBXNativeTarget "ExamCardsCA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0000000028BEA4BA7AE0DF03 /* Debug */,
+				0000000069EF8EF9B5370C1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 000000002B7034EB1D2F7401 /* Project object */;
+}

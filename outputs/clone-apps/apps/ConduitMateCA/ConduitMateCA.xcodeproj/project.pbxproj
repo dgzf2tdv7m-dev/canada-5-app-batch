@@ -1,0 +1,203 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00000000625F142BF8ED6A2B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000342A388BBC892A3D /* ContentView.swift */; };
+		000000000FE43DEA593960E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 000000001C98AFC813479A05 /* Assets.xcassets */; };
+		00000000201A94A434E5E6D9 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 0000000000D0B04905216EAA /* PrivacyInfo.xcprivacy */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00000000357E9A0E0908850E /* ConduitMateCA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConduitMateCA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00000000342A388BBC892A3D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		000000001C98AFC813479A05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0000000000D0B04905216EAA /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		000000006E4D68DB49408933 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		000000003FB4E6D082A4A366 = {
+			isa = PBXGroup;
+			children = (
+				000000006945644D5ED5D946 /* ConduitMateCA */,
+				000000003FBC0D75F65D29DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		000000006945644D5ED5D946 /* ConduitMateCA */ = {
+			isa = PBXGroup;
+			children = (
+				00000000342A388BBC892A3D /* ContentView.swift */,
+				000000001C98AFC813479A05 /* Assets.xcassets */,
+				0000000000D0B04905216EAA /* PrivacyInfo.xcprivacy */,
+				000000006E4D68DB49408933 /* Info.plist */,
+			);
+			path = ConduitMateCA;
+			sourceTree = "<group>";
+		};
+		000000003FBC0D75F65D29DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00000000357E9A0E0908850E /* ConduitMateCA.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0000000032C5BD4D21391F4F /* ConduitMateCA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0000000035FE1E2A5B7EE56B /* Build configuration list for PBXNativeTarget "ConduitMateCA" */;
+			buildPhases = (
+				000000003A6C8D4DEAE8A364 /* Sources */,
+				00000000461C78FBAE5186DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConduitMateCA;
+			productName = ConduitMateCA;
+			productReference = 00000000357E9A0E0908850E /* ConduitMateCA.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0000000044B47DC6175B2B55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					0000000032C5BD4D21391F4F = {
+						CreatedOnToolsVersion = 26.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 000000006A5E6F3A2EBA5A89 /* Build configuration list for PBXProject "ConduitMateCA" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				fr,
+				Base,
+			);
+			mainGroup = 000000003FB4E6D082A4A366;
+			productRefGroup = 000000003FBC0D75F65D29DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0000000032C5BD4D21391F4F /* ConduitMateCA */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00000000461C78FBAE5186DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000000000FE43DEA593960E6 /* Assets.xcassets in Resources */,
+				00000000201A94A434E5E6D9 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		000000003A6C8D4DEAE8A364 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00000000625F142BF8ED6A2B /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0000000037278478B780351F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		000000005E265202DAC9CF76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		0000000049743A7656C06B05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ConduitMateCA/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codexpipeline.canada.conduitmateca;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		00000000757FFB5226ACE4D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ConduitMateCA/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codexpipeline.canada.conduitmateca;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		000000006A5E6F3A2EBA5A89 /* Build configuration list for PBXProject "ConduitMateCA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0000000037278478B780351F /* Debug */,
+				000000005E265202DAC9CF76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0000000035FE1E2A5B7EE56B /* Build configuration list for PBXNativeTarget "ConduitMateCA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0000000049743A7656C06B05 /* Debug */,
+				00000000757FFB5226ACE4D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0000000044B47DC6175B2B55 /* Project object */;
+}

@@ -1,0 +1,203 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		000000001830EE6EFAF2F2C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000073C9CDEF12A281E9 /* ContentView.swift */; };
+		000000005590F9E296EB7CE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 000000003992CA472F65B4DB /* Assets.xcassets */; };
+		0000000008E768C19A488C12 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 000000004D6389C48C95C3DA /* PrivacyInfo.xcprivacy */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00000000335A007C8F75EC7D /* TelePromptCA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TelePromptCA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0000000073C9CDEF12A281E9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		000000003992CA472F65B4DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		000000004D6389C48C95C3DA /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		0000000054E80B21ABA9CAD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		00000000048E6C8F54E32E20 = {
+			isa = PBXGroup;
+			children = (
+				0000000068FD0F8B9A7705A8 /* TelePromptCA */,
+				0000000032A8782A9BB74B8E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0000000068FD0F8B9A7705A8 /* TelePromptCA */ = {
+			isa = PBXGroup;
+			children = (
+				0000000073C9CDEF12A281E9 /* ContentView.swift */,
+				000000003992CA472F65B4DB /* Assets.xcassets */,
+				000000004D6389C48C95C3DA /* PrivacyInfo.xcprivacy */,
+				0000000054E80B21ABA9CAD2 /* Info.plist */,
+			);
+			path = TelePromptCA;
+			sourceTree = "<group>";
+		};
+		0000000032A8782A9BB74B8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00000000335A007C8F75EC7D /* TelePromptCA.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0000000018FC6D730F85BC90 /* TelePromptCA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000000006B5E8A27676CBAED /* Build configuration list for PBXNativeTarget "TelePromptCA" */;
+			buildPhases = (
+				000000004983711CC1B8CB0E /* Sources */,
+				00000000609AA1D2852A2A65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TelePromptCA;
+			productName = TelePromptCA;
+			productReference = 00000000335A007C8F75EC7D /* TelePromptCA.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		000000005FB93DCC93B2C20A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					0000000018FC6D730F85BC90 = {
+						CreatedOnToolsVersion = 26.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0000000079BB91179D21564F /* Build configuration list for PBXProject "TelePromptCA" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				fr,
+				Base,
+			);
+			mainGroup = 00000000048E6C8F54E32E20;
+			productRefGroup = 0000000032A8782A9BB74B8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0000000018FC6D730F85BC90 /* TelePromptCA */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00000000609AA1D2852A2A65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000000005590F9E296EB7CE1 /* Assets.xcassets in Resources */,
+				0000000008E768C19A488C12 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		000000004983711CC1B8CB0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000000001830EE6EFAF2F2C3 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		00000000632AB164EC409241 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		0000000058D9328DF81A9FEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		0000000075135C634AA76442 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = TelePromptCA/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codexpipeline.canada.telepromptca;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0000000046BDFA3B1550922B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = TelePromptCA/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codexpipeline.canada.telepromptca;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0000000079BB91179D21564F /* Build configuration list for PBXProject "TelePromptCA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00000000632AB164EC409241 /* Debug */,
+				0000000058D9328DF81A9FEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		000000006B5E8A27676CBAED /* Build configuration list for PBXNativeTarget "TelePromptCA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0000000075135C634AA76442 /* Debug */,
+				0000000046BDFA3B1550922B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 000000005FB93DCC93B2C20A /* Project object */;
+}

@@ -1,0 +1,203 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		000000003271376DBE62C41E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000004C49B7FF3082AE70 /* ContentView.swift */; };
+		000000003B95E6F599FA91E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0000000055E689DCC6E556F4 /* Assets.xcassets */; };
+		000000007E5F23E3B3FFF3FB /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 000000000AA54FBD1D104A66 /* PrivacyInfo.xcprivacy */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0000000059FD8D4982FE05A6 /* WinterOBDCA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WinterOBDCA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		000000004C49B7FF3082AE70 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0000000055E689DCC6E556F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		000000000AA54FBD1D104A66 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		0000000038045B7A85EEABD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		000000004D190321667D84A8 = {
+			isa = PBXGroup;
+			children = (
+				000000001CE73D00F8ECCF3C /* WinterOBDCA */,
+				0000000019CAD5CADA433B9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		000000001CE73D00F8ECCF3C /* WinterOBDCA */ = {
+			isa = PBXGroup;
+			children = (
+				000000004C49B7FF3082AE70 /* ContentView.swift */,
+				0000000055E689DCC6E556F4 /* Assets.xcassets */,
+				000000000AA54FBD1D104A66 /* PrivacyInfo.xcprivacy */,
+				0000000038045B7A85EEABD1 /* Info.plist */,
+			);
+			path = WinterOBDCA;
+			sourceTree = "<group>";
+		};
+		0000000019CAD5CADA433B9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0000000059FD8D4982FE05A6 /* WinterOBDCA.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0000000061E9CFF002516058 /* WinterOBDCA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00000000233371068352D11F /* Build configuration list for PBXNativeTarget "WinterOBDCA" */;
+			buildPhases = (
+				0000000072F4400F8135BAA1 /* Sources */,
+				000000000A3E7B602502D4AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WinterOBDCA;
+			productName = WinterOBDCA;
+			productReference = 0000000059FD8D4982FE05A6 /* WinterOBDCA.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00000000661AB5C1C15CF067 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					0000000061E9CFF002516058 = {
+						CreatedOnToolsVersion = 26.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 000000003F6398D5A665C4BD /* Build configuration list for PBXProject "WinterOBDCA" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				fr,
+				Base,
+			);
+			mainGroup = 000000004D190321667D84A8;
+			productRefGroup = 0000000019CAD5CADA433B9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0000000061E9CFF002516058 /* WinterOBDCA */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		000000000A3E7B602502D4AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000000003B95E6F599FA91E0 /* Assets.xcassets in Resources */,
+				000000007E5F23E3B3FFF3FB /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0000000072F4400F8135BAA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000000003271376DBE62C41E /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0000000078DC795D059AB590 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		000000003A7EF06CC3C64794 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		000000000B9F97D7F0F9A609 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = WinterOBDCA/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codexpipeline.canada.winterobdca;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		000000005320CEF070DE7F87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = WinterOBDCA/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codexpipeline.canada.winterobdca;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		000000003F6398D5A665C4BD /* Build configuration list for PBXProject "WinterOBDCA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0000000078DC795D059AB590 /* Debug */,
+				000000003A7EF06CC3C64794 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00000000233371068352D11F /* Build configuration list for PBXNativeTarget "WinterOBDCA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000000000B9F97D7F0F9A609 /* Debug */,
+				000000005320CEF070DE7F87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00000000661AB5C1C15CF067 /* Project object */;
+}

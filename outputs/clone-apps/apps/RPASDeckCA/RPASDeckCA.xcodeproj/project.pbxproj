@@ -1,0 +1,203 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		000000000D6D3F3105CC274C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000005AE3D3158FC8EF76 /* ContentView.swift */; };
+		000000005BE1FC0464C3151D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 000000001B2D66EF3CE862FF /* Assets.xcassets */; };
+		000000003825816C9ED67953 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 000000002104E024C23560B4 /* PrivacyInfo.xcprivacy */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00000000238B6EBC9F353DB5 /* RPASDeckCA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RPASDeckCA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		000000005AE3D3158FC8EF76 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		000000001B2D66EF3CE862FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		000000002104E024C23560B4 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		000000000982ECBFF2C5733F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		000000007D6C6440444184AA = {
+			isa = PBXGroup;
+			children = (
+				0000000009CC4873EDECCF2C /* RPASDeckCA */,
+				0000000025A47D982B70F0EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0000000009CC4873EDECCF2C /* RPASDeckCA */ = {
+			isa = PBXGroup;
+			children = (
+				000000005AE3D3158FC8EF76 /* ContentView.swift */,
+				000000001B2D66EF3CE862FF /* Assets.xcassets */,
+				000000002104E024C23560B4 /* PrivacyInfo.xcprivacy */,
+				000000000982ECBFF2C5733F /* Info.plist */,
+			);
+			path = RPASDeckCA;
+			sourceTree = "<group>";
+		};
+		0000000025A47D982B70F0EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00000000238B6EBC9F353DB5 /* RPASDeckCA.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		000000002DD8604339535250 /* RPASDeckCA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0000000054DA2E6793F91804 /* Build configuration list for PBXNativeTarget "RPASDeckCA" */;
+			buildPhases = (
+				000000000907E8B58668A302 /* Sources */,
+				000000000AC5D2D3C61BE583 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RPASDeckCA;
+			productName = RPASDeckCA;
+			productReference = 00000000238B6EBC9F353DB5 /* RPASDeckCA.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		000000007B37F5BDE304B6D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					000000002DD8604339535250 = {
+						CreatedOnToolsVersion = 26.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0000000066E3CD56467F3A05 /* Build configuration list for PBXProject "RPASDeckCA" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				fr,
+				Base,
+			);
+			mainGroup = 000000007D6C6440444184AA;
+			productRefGroup = 0000000025A47D982B70F0EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				000000002DD8604339535250 /* RPASDeckCA */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		000000000AC5D2D3C61BE583 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000000005BE1FC0464C3151D /* Assets.xcassets in Resources */,
+				000000003825816C9ED67953 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		000000000907E8B58668A302 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000000000D6D3F3105CC274C /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0000000041B0E61DBF5FDB9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		0000000032DD85D40D9F184D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		0000000050CF04D2DA4D0A32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = RPASDeckCA/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codexpipeline.canada.rpasdeckca;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0000000062AEEA68F74CD3B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = RPASDeckCA/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codexpipeline.canada.rpasdeckca;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0000000066E3CD56467F3A05 /* Build configuration list for PBXProject "RPASDeckCA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0000000041B0E61DBF5FDB9D /* Debug */,
+				0000000032DD85D40D9F184D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0000000054DA2E6793F91804 /* Build configuration list for PBXNativeTarget "RPASDeckCA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0000000050CF04D2DA4D0A32 /* Debug */,
+				0000000062AEEA68F74CD3B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 000000007B37F5BDE304B6D7 /* Project object */;
+}
